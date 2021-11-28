@@ -2,7 +2,7 @@ const urlBase = 'https://restcountries.com/v3.1/name/';
 const urlFilter = '?fields=name,capital,population,flags,languages';
 export default class fetchCountries {
   constructor() {
-    this.name = 'a';
+    this.name = '';
   }
   fetchInfo() {
     const url = `${urlBase}${this.name}`;
